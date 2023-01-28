@@ -16,41 +16,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="398" placeholderIntrinsicHeight="390" translatesAutoresizingMaskIntoConstraints="NO" id="AY7-uy-aAb">
-                                <rect key="frame" x="16" y="59" width="398" height="390"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hKK-cv-b0L">
+                                <rect key="frame" x="16" y="59" width="398" height="400"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
-                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="398" placeholderIntrinsicHeight="390" translatesAutoresizingMaskIntoConstraints="NO" id="FYD-rp-btc">
-                                <rect key="frame" x="16" y="508" width="398" height="390"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AY7-uy-aAb">
+                                <rect key="frame" x="16" y="498" width="398" height="400"/>
+                                <color key="backgroundColor" red="0.80987197160720825" green="0.01665335227109253" blue="0.032093975133784439" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AY7-uy-aAb" secondAttribute="trailing" constant="16" id="0JK-Qf-OB8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FYD-rp-btc" secondAttribute="bottom" id="3RE-RJ-ipz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FYD-rp-btc" secondAttribute="trailing" constant="16" id="NSE-el-B5q"/>
-                            <constraint firstItem="AY7-uy-aAb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QSw-lw-Lfi"/>
-                            <constraint firstItem="AY7-uy-aAb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Rbo-5L-JPd"/>
-                            <constraint firstItem="FYD-rp-btc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lV0-Ec-UHL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="hKK-cv-b0L" secondAttribute="bottom" constant="439" id="1pu-Yv-ewl"/>
+                            <constraint firstItem="hKK-cv-b0L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7YL-dh-4cI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AY7-uy-aAb" secondAttribute="trailing" constant="16" id="Mzc-1r-7Q8"/>
+                            <constraint firstItem="AY7-uy-aAb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hOd-5G-RXR"/>
+                            <constraint firstItem="hKK-cv-b0L" firstAttribute="centerY" relation="lessThanOrEqual" secondItem="AY7-uy-aAb" secondAttribute="centerY" constant="-439" id="rMv-vr-Ke7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hKK-cv-b0L" secondAttribute="trailing" constant="16" id="x5S-Sy-0go"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.02325581395349" y="-34.763948497854081"/>
+            <point key="canvasLocation" x="137" y="-642"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
